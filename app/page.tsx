@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div>
       <head>
-        <meta httpEquiv="refresh" content="0;url=https://github.com/ShadowDara/no-fucking-cors"></meta>
+        <meta httpEquiv="refresh" content="0.1;url=https://github.com/ShadowDara/no-fucking-cors"></meta>
       </head>
     </div>
   );
