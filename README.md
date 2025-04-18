@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# No fucking CORS
 
-## Getting Started
+a Vercel powered CORS ignoring webserver
 
-First, run the development server:
+## Try it
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+go to `https://no-fucking-cors.vercel.app/api?url=` and
+add your link after `?url=`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Please
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**if you want to use this usually or continious,
+please deploy this Code to your own Vercel Server**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How to deploy
 
-## Learn More
+- Copy the Code of this Repository
 
-To learn more about Next.js, take a look at the following resources:
+- Paste it in a new Repository in your Github Account
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Deploy it to your own vercel account on [vercel.com](https://vercel.com)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- then open `https://your_vercel_link.vercel.app/api?url=https://shadowdara.github.io/assets/icons/Dara-3.ico`
 
-## Deploy on Vercel
+finsihed!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Settings
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+in `app/api/route.ts` in line 5 `const CACHE_TTL = 900 * 1000`,
+this means, the website caches the data for 15 minutes
