@@ -9,8 +9,15 @@ add your link after `?url=`
 
 ## Please
 
-**if you want to use this usually or continious,
-please deploy this Code to your own Vercel Server**
+**if you want to use this tool usually or continious,
+please deploy the Code to your own Vercel Server**
+
+Because this is a free tool and so on it is running over the
+free plan of Vercel which is obviously limited!
+
+When the Dataload is getting to big, i am forced to take the
+server down or i've to increase the cache time a lot and
+i dont want this to happen
 
 ## How to deploy
 
