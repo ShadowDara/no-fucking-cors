@@ -7,6 +7,6 @@ export const metadata = {
 
 export default function NotFound() {
     return (
-      <div><head><meta httpEquiv="refresh" content="10;url=https://github.com/ShadowDara/repo-database-creator"></meta></head></div>
+      <div><head><meta httpEquiv="refresh" content="0;url=https://github.com/ShadowDara/repo-database-creator"></meta></head></div>
     );
 }
